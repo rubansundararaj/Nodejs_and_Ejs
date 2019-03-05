@@ -15,7 +15,13 @@ app.get('/',(req,res) =>{
 res.render('index',{
   founder:'Ruban',
   mentions:'Special thanks to Suwandy',
-  owner:'Ruban 100%'
+  owner:'Ruban 100%',
+  platforms:[{name:'ndimensionshares'},
+  {name:'ndimensions.xyz'},
+  {name:'letscode.xyz'},
+  {name:'ndgames'}
+]
+
 });
 
 });
